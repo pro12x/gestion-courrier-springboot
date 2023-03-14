@@ -1,0 +1,27 @@
+################################ Properties ##################################
+#server.port=1111
+#spring.datasource.url=jdbc:postgresql://localhost:1103/courriers
+#spring.datasource.username=postgres
+#spring.datasource.password=root
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.jpa.hibernate.ddl-auto=create-drop
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+################################ YAML ########################################
+server:
+  port: 1111
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:1103/courriers
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    database: postgresql
